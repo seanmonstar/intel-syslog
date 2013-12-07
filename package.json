@@ -1,0 +1,27 @@
+{
+  "name": "intel-syslog",
+  "version": "0.0.0",
+  "description": "A syslog handler for intel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --check-leaks --ui exports"
+  },
+  "dependencies": {
+    "syslogger": "0.1.0"
+  },
+  "peerDependencies": {
+    "intel": "0.x"
+  },
+  "devDependencies": {
+    "intel": "0.x",
+    "mocha": "1.x"
+  },
+  "keywords": [
+    "logging",
+    "intel",
+    "syslog",
+    "log"
+  ],
+  "author": "Sean McArthur <sean.monstar@gmail.com> (http://seanmonstar.com)",
+  "license": "MPLv2.0"
+}
