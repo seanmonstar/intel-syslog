@@ -1,5 +1,8 @@
 # intel-syslog
 
+[![Build Status](https://travis-ci.org/seanmonstar/intel-syslog.png?branch=master)](https://travis-ci.org/seanmonstar/intel-syslog)
+[![NPM version](https://badge.fury.io/js/intel-syslog.png)](http://badge.fury.io/js/intel-syslog)
+
 A syslog log handler for [intel][].
 
 ## Usage
