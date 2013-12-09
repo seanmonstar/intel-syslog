@@ -15,4 +15,21 @@ intel.addHandler(new SyslogHandler({
 }));
 ```
 
+Or with [intel.config()][config]:
+
+```js
+intel.config({
+  // formatters...
+  handlers: {
+    syslog: {
+      'class': 'intel-syslog',
+      'name': 'myApp',
+      'address': '127.0.0.1' // etc
+    }
+  }
+  //loggers
+});
+```
+
 [intel]: http://seanmonstar.github.io/intel
+[config]: http://seanmonstar.github.io/intel#config
