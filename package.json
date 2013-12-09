@@ -1,6 +1,6 @@
 {
   "name": "intel-syslog",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A syslog handler for intel.",
   "main": "index.js",
   "scripts": {
